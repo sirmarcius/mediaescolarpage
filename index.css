@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  color: rgb(245,245,245);
+  background-color: rgb(105,89,205);
+  text-align: center;
+  font-stretch: 0px;
+  padding-bottom: 3%;
+  font-size: 30px;
+}
+
+body {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,221,214,1) 0%, rgba(51,102,255,1) 90% );
+}
+
+.area {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+input {
+  height: 10%;
+  width: 20%;
+}
+
+div {
+  padding-top: 2%;
+}
+
+.bts {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#resultado {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  
+}
+
+.base {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
