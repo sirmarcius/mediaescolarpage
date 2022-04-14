@@ -1,50 +1,86 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: 0;
 }
 
-.titulo {
-  color: rgb(245,245,245);
-  background-color: rgb(105,89,205);
+h1 {
+  background: darkseagreen;
+  color: black;
+  padding-left: 2%;
+  text-shadow: 2px 3px dimgray;
   text-align: center;
-  font-stretch: 0px;
-  padding-bottom: 3%;
-  font-size: 30px;
+  border-style: solid;
+  box-shadow: 2px 3px black;
 }
 
-body {
-  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,221,214,1) 0%, rgba(51,102,255,1) 90% );
+.container {
+  display: flex;
+  border-style: solid;
+  box-shadow: 2px 3px black;
 }
 
-.area {
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+fieldset {
+  display: grid;
+  margin: 20%;
+  margin-left: 40%;
+  padding: 2%;
+  height: 300px;
+  width: 90px;
+  justify-content: center;
+  border-radius: 4px;
+  border: none;
 }
 
 input {
-  height: 10%;
-  width: 20%;
-}
-
-div {
-  padding-top: 2%;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  background: darkseagreen;
+  border-radius: 4px;
 }
 
 .bts {
-  margin-top: 2%;
-  margin-bottom: 2%;
+  padding: 30%;
+  padding-left: 20%;
+  padding-top: 50%;
+  display: flex;
 }
 
-#resultado {
+#calc {
+  width: 100px;
+}
+
+#clear {
+  margin-left: 8%;
+  width: 100px;
+}
+
+.borda-result {
+  display: grid;
+  margin-left: -161%;
+  margin-top: 25%;
+  width: 200px;
+  height: 90px;
   text-align: center;
-  color: white;
-  font-size: 50px;
-  
+  border-style: solid;
 }
 
-.base {
-  padding-top: 3%;
-  padding-bottom: 3%;
+.result {
+  text-align: center;
 }
+
+textarea {
+  border-style: none;
+  background: darkseagreen;
+}
+
+body {
+  background: darkseagreen;
+}
+
+
+
 
