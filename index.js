@@ -7,9 +7,18 @@ function calcular() {
   let n4 = parseFloat(document.getElementById("nt4").value);
   
   let resultado = (n1+n2+n3+n4)/4;
-  
-  document.querySelector(".result").innerHTML = "\n\nA média é: " + resultado.toFixed(2);
 
+  if (!resultado) {
+
+    document.querySelector(".result").innerHTML = "\n\n " + resultado;
+  
+  }
+
+  else {  
+
+    document.querySelector(".result").innerHTML = "\n\nA média é: " + resultado.toFixed(2);
+
+}
 }
 
 function limpar() {
@@ -18,6 +27,10 @@ function limpar() {
   document.getElementById("nt2").value = null;
   document.getElementById("nt3").value = null;
   document.getElementById("nt4").value = null; 
+
+  let resultado = "";
+
+  document.querySelector(".result").innerHTML = "\n\n " + resultado;
   
 }
 
