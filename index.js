@@ -16,7 +16,7 @@ function calcular() {
 
   else {  
 
-    document.querySelector(".result").innerHTML = "\n\nA média é: " + resultado.toFixed(2);
+    document.querySelector(".result").innerHTML = "\n\nA média é: " + resultado.toFixed(1);
 
 }
 }
