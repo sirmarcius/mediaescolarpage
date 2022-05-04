@@ -10,7 +10,7 @@ function calcular() {
 
   if (!resultado) {
 
-    document.querySelector(".result").innerHTML = "\n\n " + resultado;
+    ".result".innerHTML = "\n\n " + resultado;
   
   }
 
