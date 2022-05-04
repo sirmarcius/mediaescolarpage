@@ -1,4 +1,4 @@
-
+// Funão que calcula a média escolar.
 function calcular() {
   
   let n1 = parseFloat(document.getElementById("nt1").value);
@@ -22,6 +22,7 @@ function calcular() {
 }
 }
 
+// Função responsavel por limpar os dados dos inputs da tela.
 function limpar() {
   
   document.getElementById("nt1").value = null;
