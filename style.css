@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
 }
 
 h1 {
@@ -23,7 +22,7 @@ h1 {
 fieldset {
   display: grid;
   margin: 20%;
-  margin-left: 40%;
+  margin-left: 220%;
   padding: 2%;
   height: 300px;
   width: 90px;
@@ -43,9 +42,10 @@ input {
 }
 
 .bts {
+  margin-left: 10%;
   padding: 30%;
-  padding-left: 20%;
-  padding-top: 50%;
+  padding-left: 19%;
+  padding-top: 30%;
   display: flex;
 }
 
@@ -60,7 +60,7 @@ input {
 
 .borda-result {
   display: grid;
-  margin-left: -161%;
+  margin-left: -228%;
   margin-top: 25%;
   width: 200px;
   height: 90px;
@@ -80,18 +80,3 @@ textarea {
 body {
   background: darkseagreen;
 }
-
-@media screen and (min-width: 1080px) {
-
-  .container {
-
-    width: auto;
-    height: auto;
-
-  }
-
-}
-
-
-
-
