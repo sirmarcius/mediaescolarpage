@@ -1,4 +1,4 @@
-// Funão que calcula a média escolar.
+// Função que calcula a média escolar.
 function calcular() {
   
   let n1 = parseFloat(document.getElementById("nt1").value);
