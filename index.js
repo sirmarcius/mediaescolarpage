@@ -7,19 +7,9 @@ function calcular() {
   let n4 = parseFloat(document.getElementById("nt4").value);
   
   let resultado = (n1+n2+n3+n4)/4;
+    
+  document.querySelector(".result").innerHTML = "\n\nA média é: " + resultado.toFixed(1);
 
-  // Essa condição é necessária para evitar um resultado NaN na tela.
-  if (resultado === NaN) {
-
-    ".result".innerHTML = "\n\n " + resultado;
-  
-  }
-
-  else {  
-
-    document.querySelector(".result").innerHTML = "\n\nA média é: " + resultado.toFixed(1);
-
-}
 }
 
 // Função responsavel por limpar os dados dos inputs da tela.
