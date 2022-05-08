@@ -12,6 +12,7 @@
   <h1>Média Escolar</h1>
   <div class="container">
     <div class="inbox">
+    <!-- Aqui fica responsável por pegar as entradas das notas para o calculo da média --> 
      <fieldset>
        <label>Nota 1</label>
        <input id="nt1" type="number">
@@ -23,11 +24,13 @@
        <input id="nt4" type="number">
      </fieldset> 
     </div>
+    <!-- Botões que submetem as ações de calculo e limpeza dos formulários -->
     <div class="bts">
-      <input id="calc" type="button" value="Calcular" onclick="calcular()">
-      <input id="clear" type="button" value="Limpar" onclick="limpar()">
+      <button id="calc" type="button" onclick="calcular()">Calcular</button>
+      <button id="clear" type="button" onclick="limpar()">Limpar</button>
        </div>
     <div>
+      <!-- Aqui é a área que mostra o resultado do calculo na tela -->
     <fieldset class="borda-result">
       <textarea class="result"></textarea>
     </fieldset>
@@ -35,5 +38,7 @@
   </div>
   </body>
 </html>
+
+<!-- Falta organizar a função de calculo para evitar resultado "NaN" sem as entradas -->
 
 
