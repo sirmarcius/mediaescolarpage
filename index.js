@@ -22,7 +22,7 @@ function limpar() {
 
   let resultado = "";
 
-  document.querySelector(".result").innerHTML = "\n\n " + resultado;
+  document.querySelector(".result").innerHTML = "\n\n ";
   
 }
 
