@@ -1,86 +1,41 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: 0;
 }
 
-h1 {
-  background: darkseagreen;
-  color: black;
-  padding-left: 2%;
-  text-shadow: 2px 3px dimgray;
-  text-align: center;
-  border-style: solid;
-  box-shadow: 2px 3px black;
+body {
+  background-color: lightgreen;
 }
 
 .container {
   display: flex;
-  border-style: solid;
-  box-shadow: 2px 3px black;
 }
 
-fieldset {
+h1 {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.box {
   display: grid;
-  margin: 20%;
-  margin-left: 220%;
   padding: 2%;
-  height: 300px;
-  width: 90px;
-  justify-content: center;
-  border-radius: 4px;
-  border: none;
+  margin-left: 38%;
+  text-align: center;
 }
 
 input {
-  width: 50px;
-  height: 40px;
   text-align: center;
-  border-style: solid;
-  border-color: black;
-  background: darkseagreen;
-  border-radius: 4px;
+  width: 80px;
+  margin-left: 25%;
 }
 
-.bts {
-  margin-left: 10%;
-  padding: 30%;
-  padding-left: 19%;
-  padding-top: 28%;
-  display: flex;
-}
-
-#calc {
-  width: 100px;
-  background: darkseagreen;
-}
-
-#clear {
-  margin-left: 8%;
-  width: 100px;
-  background: darkseagreen;
-}
-
-.borda-result {
-  display: grid;
-  margin-left: -228%;
-  margin-top: 25%;
-  width: 200px;
-  height: 90px;
-  text-align: center;
-  border-style: solid;
+#bts {
+  margin-top: 4%;
+  margin-left: -32%;
 }
 
 .result {
-  text-align: center;
+  margin-top: 10%;
 }
-
-textarea {
-  border-style: none;
-  background: darkseagreen;
-}
-
-body {
-  background: darkseagreen;
-}
-
-
