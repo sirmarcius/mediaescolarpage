@@ -1,44 +1,35 @@
-<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <script src="index.js">index.js</script>
+  <script src="index.js">
+    index.js
+  </script>
   <title>Média Escolar</title>
 </head>
+
 <body>
   <h1>Média Escolar</h1>
   <div class="container">
-    <div class="inbox">
-    <!-- Aqui fica responsável por pegar as entradas das notas para o calculo da média --> 
-     <fieldset>
-       <label>Nota 1</label>
-       <input id="nt1" type="number">
-       <label>Nota 2</label>
-       <input id="nt2" type="number">
-       <label>Nota 3</label>
-       <input id="nt3" type="number">
-       <label>Nota 4</label>
-       <input id="nt4" type="number">
-     </fieldset> 
-    </div>
-    <!-- Botões que submetem as ações de calculo e limpeza dos formulários -->
-    <div class="bts">
-      <button id="calc" type="button" onclick="calcular()">Calcular</button>
-      <button id="clear" type="button" onclick="limpar()">Limpar</button>
-       </div>
-    <div>
-      <!-- Aqui é a área que mostra o resultado do calculo na tela -->
-    <fieldset class="borda-result">
-      <textarea class="result"></textarea>
-    </fieldset>
+    <div class="box">
+      <label>Nota 1 </label>
+      <input id="nt1" type="number" required>
+      <label>Nota 2</label>
+      <input id="nt2" type="number">
+      <label>Nota 3</label>
+      <input id="nt3" type="number">
+      <label>Nota 4</label>
+      <input id="nt4" type="number">
+      <div id="bts">
+        <input id="calc" type="button" value="Calcular" onclick="calcular()">
+        <input id="clear" type="button" value="Limpar" onclick="limpar()">
+      </div>
+      <form class="result"></form>
     </div>
   </div>
-  </body>
+</body>
+
 </html>
-
-<!-- Falta organizar a função de calculo para evitar resultado "NaN" sem as entradas -->
-
-
