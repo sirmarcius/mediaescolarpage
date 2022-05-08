@@ -84,7 +84,6 @@ body {
 
 @media screen {
   body {
-    margin: auto;
     max-width: 1080px;
   }
 }
