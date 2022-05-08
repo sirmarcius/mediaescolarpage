@@ -19,10 +19,6 @@ function limpar() {
   document.getElementById("nt2").value = null;
   document.getElementById("nt3").value = null;
   document.getElementById("nt4").value = null; 
-
-  let resultado = "";
-
-  document.querySelector(".result").innerHTML = "\n\n ";
   
 }
 
