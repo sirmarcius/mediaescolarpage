@@ -51,11 +51,13 @@ input {
 
 #calc {
   width: 100px;
+  background: darkseagreen;
 }
 
 #clear {
   margin-left: 8%;
   width: 100px;
+  background: darkseagreen;
 }
 
 .borda-result {
