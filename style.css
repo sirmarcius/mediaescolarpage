@@ -44,6 +44,10 @@ body {
   margin-top: 4%;
 }
 
+input::placeholder {
+  color: graytext;
+}
+
 .result {
   margin-top: 4%;
   font-size: 20px;
@@ -56,25 +60,25 @@ body {
 
 #nt1 {
   text-align: center;
-  width: 3em;
+  width: 4em;
   border-radius: 10%;
 }
 
 #nt2 {
   text-align: center;
-  width: 3em;
+  width: 4em;
   border-radius: 10%;
 }
 
 #nt3 {
   text-align: center;
-  width: 3em;
+  width: 4em;
   border-radius: 10%;
 }
 
 #nt4 {
   text-align: center;
-  width: 3em;
+  width: 4em;
   border-radius: 10%;
 }
 
@@ -88,18 +92,17 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.calc {
-  background: gray;
+input:focus::-webkit-input-placeholder {
+  color: transparent;
 }
-
-.calc:hover {
-  opacity: 0.5;
+input:focus:-moz-placeholder {
+  /* Firefox 18- */
+  color: transparent;
 }
-
-.clear {
-  background: gray;
+input:focus::-moz-placeholder {
+  /* Firefox 19+ */
+  color: transparent;
 }
-
-.clear:hover {
-  opacity: 0.5;
+input:focus:-ms-input-placeholder {
+  color: transparent;
 }
