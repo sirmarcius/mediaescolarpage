@@ -1,6 +1,6 @@
 // Calculo de média escolar
 
-// Funão que calcula a média
+// Função que calcula a média
 function calcular() {
   let n1 = parseFloat(document.getElementById("nt1").value);
   let n2 = parseFloat(document.getElementById("nt2").value);
@@ -41,3 +41,5 @@ function limpar() {
   document.querySelector(".result").innerText = "\n" + resultado;
   document.querySelector(".result2").innerText = "\n" + resultado;
 }
+
+
