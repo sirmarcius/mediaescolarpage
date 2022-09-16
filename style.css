@@ -93,7 +93,7 @@ input::-webkit-inner-spin-button {
 }
 
 .calc:hover {
-  opacity: 0,5;
+  opacity: 0.5;
 }
 
 .clear {
@@ -101,5 +101,5 @@ input::-webkit-inner-spin-button {
 }
 
 .clear:hover {
-  opacity: 0,5;
+  opacity: 0.5;
 }
