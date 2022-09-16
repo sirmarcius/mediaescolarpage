@@ -1,51 +1,89 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  background-color: lightgreen;
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://img.freepik.com/vetores-gratis/vetor-de-fundo-matematico-e-geometrico-em-remix-de-educacao-azul-gradiente_53876-114100.jpg");
+  background-color: #000000;
+  background-size: 180vh;
+  background-position: center up;
+  background-repeat: no-repeat;
 }
 
 .container {
-  display: flex;
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  color: white;
 }
 
-h1 {
-  text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .box {
-  display: grid;
-  padding: 2%;
-  margin-left: 38%;
-  text-align: center;
-}
-
-input {
-  text-align: center;
-  width: 80px;
-  margin-left: 25%;
+  padding-top: 10%;
 }
 
 #bts {
   margin-top: 4%;
-  margin-left: -32%;
 }
 
 .result {
-  margin-top: 10%;
+  margin-top: 4%;
+  font-size: 20px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1080px) {
-  
-  .container {
+.result2 {
+  margin-top: 2%;
+  font-size: 20px;
+}
 
-  margin: auto;
-  width: 100%;   
+#nt1 {
+  text-align: center;
+  width: 3em;
+  border-radius: 10%;
+}
 
-  }
+#nt2 {
+  text-align: center;
+  width: 3em;
+  border-radius: 10%;
+}
 
+#nt3 {
+  text-align: center;
+  width: 3em;
+  border-radius: 10%;
+}
+
+#nt4 {
+  text-align: center;
+  width: 3em;
+  border-radius: 10%;
+}
+
+label {
+  color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
