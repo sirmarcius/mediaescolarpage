@@ -44,7 +44,7 @@ body {
   margin-top: 4%;
 }
 
-input::placeholder {
+input["type=number"]::placeholder {
   color: graytext;
 }
 
