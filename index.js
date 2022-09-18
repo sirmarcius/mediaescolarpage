@@ -14,20 +14,20 @@ function calcular() {
   if (resultado.toString() === "NaN") return;
 
   //sai da função caso o calculo de errado
-  document.querySelector(".result").innerText =
+  document.querySelector(".result").innerHTML =
     "\nA média final é " + resultado.toFixed(1);
 
   //Serve para dar a condição final do aluno
   if (resultado < 6) {
-    document.querySelector(".result2").innerText = "Aluno reprovado";
+    document.querySelector(".result2").innerHTML = "Aluno reprovado";
   }
 
   if (resultado >= 6 && resultado <= 6.9) {
-    document.querySelector(".result2").innerText = "Aluno em recuperação";
+    document.querySelector(".result2").innerHTML = "Aluno em recuperação";
   }
 
   if (resultado >= 7) {
-    document.querySelector(".result2").innerText = "Aluno aprovado";
+    document.querySelector(".result2").innerHTML = "Aluno aprovado";
   }
 }
 
@@ -38,8 +38,8 @@ function limpar() {
   document.getElementById("nt3").value = null;
   document.getElementById("nt4").value = null;
   let resultado = "";
-  document.querySelector(".result").innerText = "\n" + resultado;
-  document.querySelector(".result2").innerText = "\n" + resultado;
+  document.querySelector(".result").innerHTML = "\n" + resultado;
+  document.querySelector(".result2").innerHTML = "\n" + resultado;
 }
 
 
