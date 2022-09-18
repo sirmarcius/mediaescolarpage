@@ -44,7 +44,7 @@ body {
   margin-top: 4%;
 }
 
-input["type=number"]::placeholder {
+input::placeholder {
   color: graytext;
 }
 
@@ -86,23 +86,23 @@ label {
   color: white;
 }
 
-input["type=number"]::-webkit-outer-spin-button,
-input["type=number"]::-webkit-inner-spin-button {
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-input["type=number"]:focus::-webkit-input-placeholder {
+input:focus::-webkit-input-placeholder {
   color: transparent;
 }
-input["type=number"]:focus:-moz-placeholder {
+input:focus:-moz-placeholder {
   /* Firefox 18- */
   color: transparent;
 }
-input["type=number"]:focus::-moz-placeholder {
+input:focus::-moz-placeholder {
   /* Firefox 19+ */
   color: transparent;
 }
-input["type=number"]:focus:-ms-input-placeholder {
+input:focus:-ms-input-placeholder {
   color: transparent;
 }
